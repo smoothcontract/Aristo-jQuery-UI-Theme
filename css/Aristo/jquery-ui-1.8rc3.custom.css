@@ -353,9 +353,8 @@ button.ui-button-icon-only { width: 2.4em; } /* button elements seem to need a l
 button.ui-button-icons-only { width: 3.2em; } 
 .ui-button span { -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; border: 1px solid; }
 
-
 /* === INPUT:SUBMIT BUG FIX === */
-input.ui-button { background: url(images/button_bg.png) 0px 0px repeat-x !important; color: #4f4f4f; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; border: 1px solid #b6b6b6; outline: none; }
+input.ui-button { background: url(images/button_bg.png) 0px 0px repeat-x !important; color: #4f4f4f; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; border: 1px solid #b6b6b6 !important; outline: none; line-height: 1.4; font-size: 14px; text-shadow: 0px 1px 0px rgba(255,255,255,0.8); }
 input.ui-button:hover { background: url(images/button_bg.png) 0px 0px repeat-x !important; color: #313131; border-color: #9d9d9d; -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3); -webkit-box-shadow: 0px 0px 8px rgba(212,212,212,1); box-shadow: 0px 0px 8px rgba(212,212,212,1); }
 input.ui-button:active { background: url(images/button_bg.png) 0px bottom repeat-x !important; color: #4f4f4f; border-color: #b6b6b6;  }
 
