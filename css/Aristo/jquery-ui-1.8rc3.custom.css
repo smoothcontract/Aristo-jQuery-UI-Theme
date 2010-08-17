@@ -474,6 +474,8 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 .ui-datepicker .ui-datepicker-calendar .ui-state-active {  }
 .ui-datepicker .ui-datepicker-calendar a.ui-state-hover { color: #1c4257; }
 .ui-datepicker .ui-datepicker-current-day .ui-state-default { background: #5f83b9; color: #FFFFFF !important; text-shadow: 0px 1px 1px #234386; font-weight: bold; }
+img.ui-datepicker-trigger {	position: absolute;	margin-top: -1px;	margin-left: 4px; }
+img.ui-datepicker-trigger:hover {	cursor: pointer; }
 
 /* with multiple calendars */
 .ui-datepicker.ui-datepicker-multi { width:auto; }
