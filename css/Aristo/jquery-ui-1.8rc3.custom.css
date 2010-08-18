@@ -545,3 +545,23 @@ height: 200px; /*must have*/
 .ui-selectmenu-menu .ui-selectmenu-group { font-size: 1em; }
 .ui-selectmenu-menu .ui-selectmenu-group .ui-selectmenu-group-label { line-height: 1.4em; display:block; padding:.6em .5em 0; font-weight: bold; }
 .ui-selectmenu-menu .ui-selectmenu-group ul { margin: 0; padding: 0; }
+
+/* === Checkbox & Radio button === */ 
+.ui-radio-state-disabled, .ui-radio-state-checked-disabled, .ui-radio-state-disabled-hover, .ui-radio-state-checked-disabled-hover { color: #999; }
+.ui-checkbox, .ui-radio { display: inline-block; margin-top: 3px; margin-right: 8px; width: 20px; height: 21px; background: url(images/checks.png) 0 -1px no-repeat; }
+.ui-checkbox-state-hover { background-position: 0 -26px; }
+.ui-checkbox-state-hover:active { background-position: 0 -51px; }
+.ui-checkbox-state-disabled { background-position: 0 -76px; }
+.ui-checkbox-state-checked { background-position: 0 -101px; }
+.ui-checkbox-state-checked-hover { background-position: 0 -126px; }
+.ui-checkbox-state-checked-hover:active { background-position: 0 -151px; }
+.ui-checkbox-state-checked-disabled { background-position: 0 -176px; }
+.ui-radio { background-position: 0 -201px; }
+.ui-radio-state-hover { background-position: 0 -226px; }
+.ui-radio-state-hover:active { background-position: 0 -251px; }
+.ui-radio-state-disabled { background-position: 0 -276px; }
+.ui-radio-state-checked { background-position: 0 -301px; }
+.ui-radio-state-checked-hover { background-position: 0 -326px; }
+.ui-radio-state-checked-hover:active { background-position: 0 -351px; }
+.ui-radio-state-checked-disabled { background-position: 0 -376px; }
+.ui-helper-hidden { display: none; }
